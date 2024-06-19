@@ -2,7 +2,7 @@ fn main() {
     let shift: u8 = 27;
     let mut temp_num: u8;
     let mut temp: char;
-    let mut str = String::from("spongebob");
+    let str = String::from("spongebob");
     let mut updated_str = String::new();
 
     for c in str.chars() {
